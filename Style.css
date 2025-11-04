@@ -19,14 +19,14 @@
 
         /* Navigation */
         nav {
-            background: rgba(0, 0, 0, 0.9);
+            background: rgba(0, 0, 0, 0.863);
             padding: 20px 0;
             position: fixed;
             width: 100%;
             top: 0;
             z-index: 1000;
             backdrop-filter: blur(10px);
-            border-bottom: 2px solid #00ff88;
+            border-bottom: 2px solid #00ffff;;
         }
 
         nav .container {
@@ -38,7 +38,7 @@
         .logo {
             font-size: 24px;
             font-weight: bold;
-            color: #00ff88;
+            color: #00ffff;;
             text-transform: uppercase;
             letter-spacing: 2px;
         }
@@ -58,7 +58,7 @@
         }
 
         nav a:hover {
-            color: #00ff88;
+            color: #00ffff;;
         }
 
         nav a::after {
@@ -68,7 +68,7 @@
             left: 0;
             width: 0;
             height: 2px;
-            background: #00ff88;
+            background: #00ffff;;
             transition: width 0.3s;
         }
 
@@ -91,7 +91,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: radial-gradient(circle at center, rgba(0, 255, 136, 0.1) 0%, transparent 70%);
+            background: radial-gradient(circle at center, rgba(86, 172, 160, 0.295) 0%, transparent 70%);
             animation: pulse 4s ease-in-out infinite;
         }
 
@@ -108,8 +108,8 @@
         .hero h1 {
             font-size: 56px;
             margin-bottom: 20px;
-            color: #00ff88;
-            text-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+            color: #00ffff;
+            text-shadow: 0 0 20px rgba(0, 255, 221, 0.596);
         }
 
         .hero .subtitle {
@@ -121,18 +121,18 @@
         .cta-button {
             display: inline-block;
             padding: 15px 40px;
-            background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+            background: linear-gradient(135deg, #00ffff 0%, #09d1d1 100%);
             color: #000000;
             text-decoration: none;
             border-radius: 50px;
             font-weight: bold;
             transition: all 0.3s;
-            box-shadow: 0 5px 20px rgba(0, 255, 136, 0.3);
+             text-shadow: 0 0 20px rgba(0, 255, 221, 0.596);
         }
 
         .cta-button:hover {
             transform: translateY(-3px);
-            box-shadow: 0 8px 30px rgba(0, 255, 136, 0.5);
+            text-shadow: 0 0 20px rgba(0, 255, 221, 0.596);
         }
 
         /* Section Styles */
@@ -144,7 +144,7 @@
             text-align: center;
             font-size: 42px;
             margin-bottom: 50px;
-            color: #00ff88;
+            color: #00ffff;;
             position: relative;
             display: inline-block;
             left: 50%;
@@ -159,7 +159,7 @@
             transform: translateX(-50%);
             width: 100px;
             height: 3px;
-            background: linear-gradient(90deg, transparent, #00ff88, transparent);
+            background: linear-gradient(90deg, transparent, #00ffff transparent);
         }
 
         /* About Section */
@@ -183,21 +183,21 @@
         }
 
         .skill-item {
-            background: rgba(0, 255, 136, 0.05);
+            background:  #1a1a1a;/**/
             padding: 20px;
             border-radius: 10px;
-            border: 1px solid rgba(0, 255, 136, 0.2);
+            border: 1px solid  rgba(0, 255, 221, 0.596);
             transition: all 0.3s;
         }
 
         .skill-item:hover {
-            background: rgba(0, 255, 136, 0.1);
-            border-color: #00ff88;
+            background:  rgba(0, 255, 221, 0.596);
+            border-color: #00ffff;
             transform: translateY(-5px);
         }
 
         .skill-item h3 {
-            color: #00ff88;
+            color: #00ffff;
             margin-bottom: 10px;
         }
 
@@ -212,7 +212,7 @@
             background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%);
             padding: 30px;
             border-radius: 15px;
-            border: 1px solid rgba(0, 255, 136, 0.2);
+            border: 1px solid rgba(0, 255, 221, 0.596);
             transition: all 0.3s;
             position: relative;
             overflow: hidden;
@@ -225,7 +225,7 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(0, 255, 136, 0.1), transparent);
+            background: linear-gradient(90deg, transparent,  rgba(0, 255, 221, 0.596), transparent);
             transition: left 0.5s;
         }
 
@@ -234,13 +234,13 @@
         }
 
         .project-card:hover {
-            border-color: #00ff88;
+            border-color: #00ffff;
             transform: translateY(-10px);
-            box-shadow: 0 10px 40px rgba(0, 255, 136, 0.2);
+            box-shadow: 0 10px 40px  rgba(0, 255, 221, 0.596);
         }
 
         .project-card h3 {
-            color: #00ff88;
+            color: #00ffff;
             margin-bottom: 15px;
             font-size: 24px;
         }
@@ -254,27 +254,26 @@
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
-        }
+                }
 
-        .tag {
-            background: rgba(0, 255, 136, 0.1);
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 12px;
-            color: #00ff88;
-            border: 1px solid rgba(0, 255, 136, 0.3);
-        }
+                .tag {
+                    background:  rgba(0, 255, 221, 0.596);
+                    padding: 5px 15px;
+                    border-radius: 20px;
+                    font-size: 12px;
+                    color: #00ffff;
+                    border: 1px solid  rgba(0, 255, 221, 0.596);
+                }
 
-        /* Contact Section */
-        .contact-content {
-            max-width: 600px;
-            margin: 0 auto;
-            text-align: center;
-        }
+                /* Contact Section */
+                .contact-content {
+                    max-width: 600px;
+                    margin: 0 auto;
+                    text-align: center;
+                }
 
-        .contact-info {
-            display: flex;
-            justify-content: center;
+                .contact-info {
+                    display: flex;        justify-content: center;
             gap: 40px;
             margin-top: 40px;
             flex-wrap: wrap;
@@ -290,7 +289,7 @@
         .contact-icon {
             width: 60px;
             height: 60px;
-            background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+            background: linear-gradient(135deg, #00ffff 0%, #00ffff 100%);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -299,21 +298,36 @@
             color: #000000;
             transition: all 0.3s;
         }
+         .social-icons a{
+   display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size:2rem;
+  padding: 1rem;
+  background:transparent;
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+  color: var(--main-color);
+  margin:3rem 0.5rem;
+  transition: 0.3s ease;
+}
 
-        .contact-item:hover .contact-icon {
-            transform: scale(1.1) rotate(10deg);
-            box-shadow: 0 5px 20px rgba(0, 255, 136, 0.5);
-        }
+        .social-icons a:hover{
+       color:var(--text-color);
+       background-color: var(--main-color);
+       transform: scale(1.2) translateY(-5px);
+       box-shadow: 0 0 25px  #00ffff
+}
 
         .contact-item a {
-            color: #00ff88;
+            color: #00ffff;;
             text-decoration: none;
             transition: color 0.3s;
         }
 
         .contact-item a:hover {
-            color: #00ff88;
-            text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+            color: #00ffff;;
+            text-shadow: 0 0 10px  rgba(0, 255, 221, 0.596);
         }
 
         /* Footer */
@@ -321,7 +335,7 @@
             background: #000000;
             padding: 30px 0;
             text-align: center;
-            border-top: 2px solid #00ff88;
+            border-top: 2px solid #00ffff;;
         }
 
         footer p {
